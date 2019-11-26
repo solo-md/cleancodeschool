@@ -1,0 +1,30 @@
+It should not be a valid csharp code, however the
+/* comments */could be tested here pretty well
+// I'm a comment line
+/* I'm a comment line */
+/* We are two comments *//* on the same line */
+/* We are two comments */// on the same line */
+/* We are two comments  on one line */ /* with a space between */
+/* We are two comments  on one line */a/* with a code between */
+"/* I'm not a comment at all, but a string */"
+"// I'm not a comment at all, but a string"
+code here // then a comment
+code here /* then a comment */
+/* comment here */ then some code
+/*
+next line is a comment, not a whitespace
+
+*/
+// next three lines are whiespaces
+
+
+
+this is a code /*
+this is a comment
+and this is a comment */
+/*
+*/ good bye code /*
+*/
+/*
+*/ /*
+*/

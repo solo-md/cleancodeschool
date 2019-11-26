@@ -1,0 +1,24 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "globals": {
+        // Jasmine globals
+        "jasmine": "readonly",
+        "describe": "readonly",
+        "beforeEach": "readonly",
+        "it": "readonly",
+        "expect": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "quotes": ["warn", "double", { "allowTemplateLiterals": true }],
+        "no-cond-assign": "off"
+    }
+}
